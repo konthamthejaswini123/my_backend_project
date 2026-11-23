@@ -20,7 +20,7 @@ app.get("/student/:id",(req,res) => {
 
 
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log("server is started");
+app.listen(3000, () => {
+    console.log("server is started http://localhost:3000");
 });
 
